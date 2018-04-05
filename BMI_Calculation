@@ -1,0 +1,12 @@
+var tall = Number(prompt("身高"));
+var weight =Number(prompt("體重"));
+var bmi = weight/((tall/100)^2);
+if (bmi<18.5){
+  alert("Too thin");
+ }else{
+   if (bmi<24){
+     alert("Standard");
+   }else{
+     alert("Too heavy");
+   }
+ }
