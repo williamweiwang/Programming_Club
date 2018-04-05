@@ -1,0 +1,9 @@
+var input = prompt("input a number");
+input = Number(input);
+
+if(input % 2 == 0) {
+    console.log("even");
+    //show the words in console
+} else {
+    console.log("odd");
+}
